@@ -42,12 +42,12 @@ div #foxes {
 }
 
 #foxes {
-    animation: mengetik 3s steps(24);
+    animation: mengetik 3s steps(25);
     overflow: hidden;
     white-space: nowrap;
     font-family: Ubuntu, monospace;
     border-right: 5px solid rgb(160, 73, 39);
-    width: 24ch;
+    width: 25ch;
     position: relative;
     font-size: 3rem;
     padding: 5px;
@@ -59,7 +59,7 @@ div #foxes {
         width: 0%;
     }
     100%{
-        width: 24ch;
+        width: 25ch;
     }
 }
 
@@ -77,7 +77,7 @@ div #foxes {
     white-space: nowrap;
     font-family: Ubuntu, monospace;
     border: 5px solid rgb(160, 73, 39);
-    width: 24ch;
+    width: 25ch;
     position: relative;
     margin: 0;
     padding: 0;
