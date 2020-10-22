@@ -42,12 +42,12 @@ div #foxes {
 }
 
 #foxes {
-    animation: mengetik 3s steps(23);
+    animation: mengetik 3s steps(24);
     overflow: hidden;
     white-space: nowrap;
     font-family: Ubuntu, monospace;
     border-right: 5px solid rgb(160, 73, 39);
-    width: 23ch;
+    width: 24ch;
     position: relative;
     font-size: 3rem;
     padding: 5px;
