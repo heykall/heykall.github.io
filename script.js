@@ -22,7 +22,6 @@ function over(angkat) {
 }
     
 function drop(angkat){
-	angkat.preventDefault()
 	let taruh = angkat.dataTransfer.getData("Text")
 	angkat.target.appendChild(document.getElementById(taruh))
 }
