@@ -25,10 +25,11 @@ h1 {
 #pecahanPuzzle{
 	background: #0e0d0d;
 	width: 306px;
-	height: 300px;
+	height: 306px;
 	float: left;
 	margin-left: 5px;
 	box-shadow: 0px 0px 10px  2px #d0eb6a;
+	border-radius: 3px;
 }
 
 #puzzle {
@@ -38,6 +39,7 @@ h1 {
 	float: right;
 	margin-right: 5px;
 	box-shadow: 0px 0px 10px  2px #e7931a;
+	border-radius: 3px;
 }
 .pindahPuzzle {
 	width: 50px;
