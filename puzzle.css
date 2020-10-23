@@ -53,7 +53,7 @@ h1 {
 }
 
 .glow {
-  font-size: 36px;
+  font-size: 40px;
   color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -69,4 +69,40 @@ h1 {
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
+
+#tombol {
+  margin-top: 5px;
+  background-color: #91264f;
+  border: none;
+  color: white;
+  padding: 3px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #f7fcf7;
+	transition-duration: 0.4s;
+	position: relative;
+}
+
+#tombol:hover {
+  background-color: #3d3361; 
+  color: white;
+}
+
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  80% {
+    opacity: 30%;
+  }
+}
+
+footer {
+	position: relative;
+	margin: auto;
+	text-align: center;
 }
